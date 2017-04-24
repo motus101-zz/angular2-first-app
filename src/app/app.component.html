@@ -1,0 +1,19 @@
+<app-header></app-header>
+<hr>
+<br />
+<h1>
+  {{title}}
+</h1>
+<h1>Property binding</h1>
+<input type="text" [value]="inputString" >
+
+<button (click)="onClicked()">Click me!</button>
+<br />
+<br />
+<p [ngClass]="{blueBorder: onTest()}">{{inputAnotherString}}</p>
+<br />
+<br />
+
+
+<hr>
+<app-footer></app-footer>
